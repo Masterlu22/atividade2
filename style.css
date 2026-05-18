@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(255, 233, 203);
+    font-family: "Chelsea Market", system-ui;
+}
+
+/* definindo cor, fontes de texto e alinhamento*/
+h1,
+h2,
+h3 {
+    color: brown;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 1px 3px 3px rgb(140, 79, 79);
+}
+
+
+p {
+    text-align: justify;
+    font-size: 15px;
+}
+
+#primeiro-lugar {
+    color: #6b6b48e8;
+    font-weight: bold;
+}
+
+/*definindo borda, cor, margin e espaçamento interno das listas*/
+.listas {
+    border: solid 3px;
+    border-color: #a52a2a;
+    border-style: dotted;
+    padding: 12px;
+    margin: 4%;
+}
+
+#criterios {
+    list-style-type: none;
+}
+
+.listas>p {
+    color: rgb(220, 150, 52);
+    margin-left: 4%;
+}
